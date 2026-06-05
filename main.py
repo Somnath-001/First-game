@@ -15,7 +15,7 @@ WIN = pygame.display.set_mode((WIDTH , HEIGHT))
 pygame.display.set_caption("Space dodge")
 
 #LOADS A BACKGROUND IMAGE
-BG = pygame.transform.scale(pygame.image.load('/Users/somnathshinde/programming/game1/ai-generated-ethereal-cosmic-landscape-with-vibrant-nebula-and-stars-photo.jpeg'), (WIDTH , HEIGHT))
+BG = pygame.transform.scale(pygame.image.load('background.jpeg'), (WIDTH , HEIGHT))
 
 #SETS THE HEIGHT, WIDTH AND VELOCITY OF PLAYER
 PLAYER_HEIGHT = 40
@@ -131,4 +131,3 @@ if __name__ == "__main__":
 
     #CALLS main() FUNCTION
     main()
-
